@@ -28,7 +28,6 @@ const Hero = () => {
             </div>
 
             <div class="d-grid gap-3 w-lg-75">
-              {" "}
               <div class="input-card-form">
                 <label for="jobTitleForm" class="form-label visually-hidden">
                   Search for properties
@@ -45,7 +44,7 @@ const Hero = () => {
                     aria-label="Search for properties"
                   />
                 </div>
-              </div>{" "}
+              </div>
               <a
                 class="btn btn-primary"
                 href="https://app.channels.realty/sign-up"
