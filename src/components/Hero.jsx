@@ -18,55 +18,45 @@ const Hero = () => {
           <div class="col-lg-8">
             <div class="w-lg-75 text-start text-lg-start mb-5 mb-lg-7 ">
               <h1 class="display-6 text-white">
-                Real Estate made <span class="text-primary ">easy</span> <br />
+                Real Estate made <span class="text-primary ">easy</span>{" "}
+                <br className="d-none d-lg-block" />
                 and <span class="text-primary ">affordable</span>
               </h1>
-              <p class="text-white">
+              <p class="text-white text-wrap">
                 Channels Realty believes everyone deserves a comfortable home of
                 their own. We make provision of shelter easy for everyone.
               </p>
             </div>
+            <div class="d-grid d-sm-flex gap-3">
+              <a class="btn btn-primary btn-transition px-6" href="/">
+                Get Started
+              </a>
 
-            <div class="d-grid gap-3 w-lg-75">
-              <div class="input-card-form">
-                <label for="jobTitleForm" class="form-label visually-hidden">
-                  Search for properties
-                </label>
-                <div class="input-group input-group-merge">
-                  <span class="input-group-prepend input-group-text">
-                    <i class="bi-search"></i>
-                  </span>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="jobTitleForm"
-                    placeholder="Search for properties"
-                    aria-label="Search for properties"
-                  />
-                </div>
-              </div>
               <a
-                class="btn btn-primary"
-                href="https://app.channels.realty/sign-up"
+                class=" btn btn-outline-light btn-transition"
+                href="/"
+                role="button"
+                data-fslightbox="youtube-video"
               >
-                Create new account
+                Learn more
+                <i class="bi-chevron-right small ms-1"></i>
               </a>
             </div>
           </div>
         </div>
 
-        <div class="d-none d-lg-block col-lg-6 position-lg-absolute top-0 end-0 me-2 mt-5">
+        <div class="d-none d-lg-flex col-lg-6 position-lg-absolute top-0 end-0  ">
           <img
             class="img-fluid"
             src={img2}
             alt=""
-            style={{ height: "490px", marginLeft: "20px" }}
+            style={{ height: "450px", marginLeft: "20px" }}
           />
           <img
             class="img-fluid "
             src={img2}
             alt=""
-            style={{ height: "490px", marginLeft: "20px" }}
+            style={{ height: "450px", marginLeft: "20px" }}
           />
         </div>
       </div>

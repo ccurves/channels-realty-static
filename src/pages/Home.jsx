@@ -1,10 +1,12 @@
 import React from "react";
 import FAQSection from "../components/FAQSection";
-import FeaturesSection from "../components/FeaturesSection";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import HomeNavbar from "../components/HomeNavbar";
 import ListingSection from "../components/ListingSection";
+import SocialLinks from "../components/SocialLinks";
+import SubHero from "../components/SubHero";
+import Testimonials from "../components/Testimonials";
 
 const Home = () => {
   return (
@@ -12,8 +14,10 @@ const Home = () => {
       <HomeNavbar />
       <main id="content" role="main">
         <Hero />
+        <SubHero />
         <ListingSection />
-        <FeaturesSection />
+        <Testimonials />
+        <SocialLinks />
         <FAQSection />
       </main>
       <Footer />

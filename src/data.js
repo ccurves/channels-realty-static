@@ -27,3 +27,51 @@ export const listingItems = [
     sqft: 1000,
   },
 ];
+
+export const testimonials = [
+  {
+    id: 1,
+    img: "",
+    msg: "Lorem ipsum dolor sit amet consectetur adipisicing elit Consectetur quibusdam repellendus fugit dolores perferendis voluptas",
+    name: "John Sims",
+    title: "Farmer",
+  },
+  {
+    id: 2,
+    img: "",
+    msg: "Lorem ipsum dolor sit amet consectetur adipisicing elit Consectetur quibusdam repellendus fugit dolores perferendis voluptas",
+    name: "Dorcas Jacob",
+    title: "Nurse",
+  },
+  {
+    id: 3,
+    img: "",
+    msg: "Lorem ipsum dolor sit amet consectetur adipisicing elit Consectetur quibusdam repellendus fugit dolores perferendis voluptas",
+    name: "Chike Daniel",
+    title: "Student",
+  },
+];
+
+export const packages = [
+  {
+    id: 1,
+    img: "",
+    name: "First",
+    ref: 15,
+    sqm: 150,
+  },
+  {
+    id: 2,
+    img: "",
+    name: "Second",
+    ref: 30,
+    sqm: 300,
+  },
+  {
+    id: 3,
+    img: "",
+    name: "Third",
+    ref: 60,
+    sqm: 600,
+  },
+];

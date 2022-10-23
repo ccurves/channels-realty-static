@@ -4,13 +4,19 @@ import Navbar from "../components/Navbar";
 import img2 from "../assets/img/29.jpg";
 import NewsLetterSub from "../components/NewsLetterSub";
 import SocialShare from "../components/SocialShare";
+import img from "../assets/svg/wave-pattern-light.svg";
 
 const Channerators = () => {
   return (
     <>
       <Navbar />
       <main id="content" role="main">
-        <div class="bg-primary rounded-2 ">
+        <div
+          class="bg-primary rounded-2 n"
+          style={{
+            background: `url(${img}) no-repeat`,
+          }}
+        >
           <div class="position-relative zi-2">
             <div class="d-md-flex">
               <div class="container d-md-flex align-items-md-center min-vh-md-100 text-center content-space-3 content-space-t-md-4 content-space-t-lg-3">
@@ -42,11 +48,7 @@ const Channerators = () => {
             <div class="row justify-content-lg-between align-items-md-center">
               <div class="col-md-6 col-lg-5 order-md-2 mb-10 mb-md-0 ms-0">
                 <div class="ms-2">
-                  <img
-                    class="img-fluid rounded-2"
-                    src={img2}
-                    alt="Image Description"
-                  />
+                  <img class="img-fluid rounded-2" src={img2} alt="" />
                 </div>
               </div>
 

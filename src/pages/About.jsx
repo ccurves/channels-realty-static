@@ -1,13 +1,11 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import img from "../assets/img/20.jpg";
 import img2 from "../assets/img/29.jpg";
-import img3 from "../assets/img/31.jpg";
-import img4 from "../assets/img/25.jpg";
-import img5 from "../assets/img/26.jpg";
 import img6 from "../assets/img/4.jpg";
 import img7 from "../assets/img/27.jpg";
+import PacakagesGrid from "../components/PacakagesGrid";
+import Gallery from "../components/Gallery";
 
 const About = () => {
   return (
@@ -15,78 +13,28 @@ const About = () => {
       <Navbar />
       <main id="content" role="main">
         <div class="container content-space-t-3 content-space-t-lg-3">
-          <div class="w-lg-75 text-center mx-lg-auto">
-            <div class="mb-5 mb-md-10">
-              <h1 class="display-4">The Mission</h1>
-              <p class="lead">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-                aperiam tenetur aspernatur architecto! Consectetur hic sint
-                voluptatum officiis explicabo beatae.
-              </p>
-            </div>
+          <div class="w-lg-75 text-center mx-lg-auto mb-5">
+            <h1 class="display-6">We Are Channels Realty</h1>
           </div>
+          <Gallery />
+        </div>
 
-          <div class="row gx-3">
-            <div class="col mb-3">
-              <div
-                class="bg-img-start"
-                style={{
-                  background: `url(${img}) no-repeat`,
-                  height: "15rem",
-                }}
-              ></div>
+        <div class="container content-space-2 content-space-lg-3">
+          <div class="row justify-content-lg-between">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+              <h2 className="display-6">Everyone deserves a Home!</h2>
             </div>
 
-            <div class="col-3 d-none d-md-block mb-3">
-              <div
-                class="bg-img-start"
-                style={{
-                  background: `url(${img2})  no-repeat`,
-                  height: "15rem",
-                }}
-              ></div>
-            </div>
-
-            <div class="col mb-3">
-              <div
-                class="bg-img-start"
-                style={{
-                  background: `url(${img3}) no-repeat`,
-                  height: "15rem",
-                }}
-              ></div>
-            </div>
-
-            <div class="w-100"></div>
-
-            <div class="col mb-3 mb-md-0">
-              <div
-                class="bg-img-start"
-                style={{
-                  background: `url(${img4}) center no-repeat`,
-                  height: "15rem",
-                }}
-              ></div>
-            </div>
-
-            <div class="col-4 d-none d-md-block mb-3 mb-md-0">
-              <div
-                class="bg-img-start"
-                style={{
-                  background: `url(${img}) no-repeat`,
-                  height: "15rem",
-                }}
-              ></div>
-            </div>
-
-            <div class="col">
-              <div
-                class="bg-img-start"
-                style={{
-                  background: `url(${img5}) no-repeat`,
-                  height: "15rem",
-                }}
-              ></div>
+            <div class="col-lg-6">
+              <p className="lead">
+                Shelter is one of the basic necessities in life. Without
+                shelter, there will be no protection of man’s dignity. If this
+                is true, why then does the word ‘homeless’ exist? Why does
+                shelter have to select between the rich and the poor? At
+                Channels Realty, we believe everyone should have a shot at
+                becoming a homeowner. We have come up with a strategy to bring
+                Real Estate to the masses no matter the class.
+              </p>
             </div>
           </div>
         </div>
@@ -94,31 +42,59 @@ const About = () => {
         <div class="border-top mx-auto" style={{ maxWidth: "25rem" }}></div>
 
         <div class="container content-space-2 content-space-lg-3">
-          <div class="row justify-content-lg-between">
-            <div class="col-lg-4 mb-5 mb-lg-0">
-              <h2>Tools should adapt to the user, not the other way around.</h2>
-            </div>
-
-            <div class="col-lg-6">
-              <p>
-                Since 2007, we have helped 25 companies launch over 1k
-                incredible products. We believe the best digital solutions are
-                built at the intersection of business strategy, available
-                technology, and real user's needs.
+          <div class="w-lg-75 text-center mx-lg-auto">
+            <div class="mb-5 mb-md-10">
+              <h1 class="display-4">Our Strategy</h1>
+              <p class="">
+                There is a popular saying that reads; “All fingers are not
+                equal”. We recognise this to translate to the fact that everyone
+                cannot be in the same class when it comes to wealth.
               </p>
-              <p>
-                Things can get really complex, really quickly, and a pragmatic,
-                synthetic and clear vision is essential to be able to create
-                something that, after all, is meant to be used. Emotions also
-                have a big role to play and developing clear and beautiful
-                aesthetics is of the utmost importance to create a pleasant
-                environment in which the user actually enjoys the time spent in
-                it. In the end, we're all suckers for beautiful things that just
-                work
+              <p class="">
+                This is the basis we built our strategy on. We have different
+                products to suit each class.
               </p>
             </div>
           </div>
+          <div class="row justify-content-lg-center">
+            <div class="col-sm-6 col-lg-4 mb-3 mb-sm-4">
+              <div class="d-flex px-md-4">
+                <div class="flex-shrink-0">
+                  <span>—</span>
+                </div>
+
+                <div class="flex-grow-1 ms-3">
+                  <h4>Outright</h4>
+                  <p>
+                    You can buy a land outrightly from our listings, we will
+                    supply you with every paper of the land ownership.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 mb-3 mb-sm-4">
+              <div class="d-flex px-md-4">
+                <div class="flex-shrink-0">
+                  <span>—</span>
+                </div>
+
+                <div class="flex-grow-1 ms-3">
+                  <h4>Subscribition</h4>
+                  <p>
+                    You also have the option of subscribing to own a land on
+                    Channels Villa just with ₦20,000. With Channels Villa you
+                    can claim a 150 sqm of land by referring 15 people, 300 sqm
+                    of land by referring 30 people, and 600 sqm of land by
+                    referring 60 people.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <PacakagesGrid />
 
         <div class="border-top mx-auto" style={{ maxWidth: "25rem" }}></div>
 
@@ -132,11 +108,7 @@ const About = () => {
 
           <div class="row mb-7 align-items-center justify-content-center">
             <div class="col-sm-6 col-md-3 mb-5 mb-lg-0">
-              <img
-                class="card-img rounded-2"
-                src={img6}
-                alt="Image Description"
-              />
+              <img class="card-img rounded-2" src={img6} alt="" />
               <div class="card card-sm text-center mt-n7 mx-3">
                 <div class="card-body">
                   <h4 class="card-title">Christina Kray</h4>
@@ -146,11 +118,7 @@ const About = () => {
             </div>
 
             <div class="col-sm-6 col-md-3 mb-5 mb-lg-0">
-              <img
-                class="card-img rounded-2"
-                src={img2}
-                alt="Image Description"
-              />
+              <img class="card-img rounded-2" src={img2} alt="" />
               <div class="card card-sm text-center mt-n7 mx-3">
                 <div class="card-body">
                   <h4 class="card-title">Jeff Fisher</h4>
@@ -160,11 +128,7 @@ const About = () => {
             </div>
 
             <div class="col-sm-6 col-md-3 mb-5 mb-sm-0">
-              <img
-                class="card-img rounded-2"
-                src={img7}
-                alt="Image Description"
-              />
+              <img class="card-img rounded-2" src={img7} alt="" />
               <div class="card card-sm text-center mt-n7 mx-3">
                 <div class="card-body">
                   <h4 class="card-title">Lida Reidy</h4>

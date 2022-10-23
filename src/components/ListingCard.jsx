@@ -3,10 +3,7 @@ import React from "react";
 const ListingCard = ({ listing }) => {
   return (
     <div class="col mb-3">
-      <a
-        class="card card-flush shadow-none h-100"
-        href="property-overview.html"
-      >
+      <a class="card card-flush shadow-none h-100" href="/">
         <div class="card-pinned">
           <img class="card-img" src={listing.img} alt="" />
 
