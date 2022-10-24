@@ -31,21 +31,21 @@ export const listingItems = [
 export const testimonials = [
   {
     id: 1,
-    img: "",
+    img: "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
     msg: "Lorem ipsum dolor sit amet consectetur adipisicing elit Consectetur quibusdam repellendus fugit dolores perferendis voluptas",
     name: "John Sims",
     title: "Farmer",
   },
   {
     id: 2,
-    img: "",
+    img: "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
     msg: "Lorem ipsum dolor sit amet consectetur adipisicing elit Consectetur quibusdam repellendus fugit dolores perferendis voluptas",
     name: "Dorcas Jacob",
     title: "Nurse",
   },
   {
     id: 3,
-    img: "",
+    img: "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
     msg: "Lorem ipsum dolor sit amet consectetur adipisicing elit Consectetur quibusdam repellendus fugit dolores perferendis voluptas",
     name: "Chike Daniel",
     title: "Student",
