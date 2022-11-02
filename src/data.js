@@ -55,21 +55,21 @@ export const testimonials = [
 export const packages = [
   {
     id: 1,
-    img: "",
+    img: "https://cdn-icons-png.flaticon.com/512/4129/4129528.png",
     name: "First",
     ref: 15,
     sqm: 150,
   },
   {
     id: 2,
-    img: "",
+    img: "https://cdn-icons-png.flaticon.com/512/4014/4014564.png",
     name: "Second",
     ref: 30,
     sqm: 300,
   },
   {
     id: 3,
-    img: "",
+    img: "https://cdn-icons-png.flaticon.com/512/3712/3712193.png",
     name: "Third",
     ref: 60,
     sqm: 600,
