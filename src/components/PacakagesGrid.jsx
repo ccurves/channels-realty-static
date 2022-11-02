@@ -1,9 +1,15 @@
 import React from "react";
 import { packages } from "../data";
+import img from "../assets/svg/wave-pattern-light.svg";
 
 const PacakagesGrid = () => {
   return (
-    <div class="border-top bg-secondary text-white">
+    <div
+      class="border-top bg-secondary text-white"
+      style={{
+        background: `url(${img}) no-repeat`,
+      }}
+    >
       <div class="container content-space-2 content-space-lg-3">
         <div class="w-lg-50 text-center mx-lg-auto mb-7">
           <h1 class="display-4 mb-3 text-white">
@@ -34,39 +40,41 @@ const PacakagesGrid = () => {
           <h2 className="text-white">Channels Villa Packages</h2>
         </div>
 
-        <div class="row mb-7 ">
-          {packages.map((plan, index) => (
-            <div class="col-sm-6 col-lg-4 mb-5 mb-lg-0">
-              <div
-                class="card  text-center aos-init aos-animate"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <div class="card-body">
-                  <div className="mb-4">
-                    <img
-                      class="img-fluid"
-                      src={plan.img}
-                      alt=""
-                      style={{ height: "8rem" }}
-                    />
-                  </div>
+        <div className="container px-4 px-md-8 px-lg-10">
+          <div class="row mb-7 ">
+            {packages.map((plan, index) => (
+              <div class="col-sm-6 col-lg-4 mb-5 mb-lg-0">
+                <div
+                  class="card  text-center aos-init aos-animate"
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                >
+                  <div class="card-body">
+                    <div className="mb-4">
+                      <img
+                        class="img-fluid"
+                        src={plan.img}
+                        alt=""
+                        style={{ height: "8rem" }}
+                      />
+                    </div>
 
-                  <h3 class="card-title">{plan.name}</h3>
-                  <p class="card-text">
-                    Pay the sum of ₦20,000 to join this package and refer{" "}
-                    {plan.ref} people to claim {plan.sqm} sqm of land.
-                  </p>
+                    <h3 class="card-title">{plan.name}</h3>
+                    <p class="card-text">
+                      Pay the sum of ₦20,000 to join this package and refer{" "}
+                      {plan.ref} people to claim {plan.sqm} sqm of land.
+                    </p>
 
-                  <div class="d-grid">
-                    <a class="btn btn-primary btn-transition" href="">
-                      Sign up for this package
-                    </a>
+                    <div class="d-grid">
+                      <a class="btn btn-primary btn-transition" href="">
+                        Sign up for this package
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>
