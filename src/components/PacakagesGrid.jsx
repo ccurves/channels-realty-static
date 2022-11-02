@@ -7,7 +7,7 @@ const PacakagesGrid = () => {
     <div
       class="border-top bg-secondary text-white"
       style={{
-        background: `url(${img}) no-repeat`,
+        background: `url(${img})`,
       }}
     >
       <div class="container content-space-2 content-space-lg-3">
@@ -31,7 +31,7 @@ const PacakagesGrid = () => {
           <p>
             Claim any of the lands listed by paying the price it is listed for.
           </p>
-          <button className="btn btn-outline-light btn-transition px-3">
+          <button className="btn btn-light btn-transition px-3">
             Buy a land
           </button>
         </div>
