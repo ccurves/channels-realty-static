@@ -256,7 +256,7 @@ const FAQs = () => {
                       aria-expanded="false"
                       aria-controls="collapseBasicsNine"
                     >
-                      Does Channels Realty have an office location? Yes!
+                      Does Channels Realty have an office location?
                     </a>
                   </div>
                   <div
@@ -266,9 +266,7 @@ const FAQs = () => {
                     data-bs-parent="#accordionFAQBasics"
                   >
                     <div class="accordion-body">
-                      Channels Realty can be located in Epe, Lagos. <br />
-                      <strong>Office Location:</strong>
-                      12, Scholars Road, Imukun Epe, Lagos! <br />
+                      Yes! Channels Realty can be located in Epe, Lagos. <br />
                       You can visit us from Monday to Friday from 9 am to 3 pm.
                     </div>
                   </div>
