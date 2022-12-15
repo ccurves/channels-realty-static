@@ -61,8 +61,12 @@ const PacakagesGrid = () => {
 
                     <h3 class="card-title">{plan.name}</h3>
                     <p class="card-text">
-                      Pay the sum of ₦20,000 to join this package and refer{" "}
-                      {plan.ref} people to claim {plan.sqm} sqm of land.
+                      Pay the sum of ₦
+                      {parseInt(
+                        process.env.REACT_APP_REG_AMOUNT
+                      ).toLocaleString()}{" "}
+                      to join this package and refer {plan.ref} people to claim{" "}
+                      {plan.sqm} sqm of land.
                     </p>
 
                     <div class="d-grid">

@@ -44,7 +44,7 @@ const ListingSection = () => {
       >
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 mb-5">
           {listingItems.map((listing, index) => (
-            <SwiperSlide>
+            <SwiperSlide key={index}>
               <ListingCard listing={listing} key={listing.id} />
             </SwiperSlide>
           ))}

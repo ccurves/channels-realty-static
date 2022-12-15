@@ -8,13 +8,16 @@ const SubHero = () => {
           <div class="mx-lg-auto mb-5">
             <span class="display-5 text-primary  text-wrap">
               Become a Land Owner with <br className="d-none d-lg-block" /> as
-              low as ₦20,000
+              low as ₦
+              {parseInt(process.env.REACT_APP_REG_AMOUNT).toLocaleString()}
             </span>
           </div>
           <div class="w-lg-50 text-center mx-lg-auto mb-10">
             <p className="lead">
-              With a ₦20,000 deposit and completing your designated tasks, you
-              can claim your own land Channels Villa.
+              With a ₦
+              {parseInt(process.env.REACT_APP_REG_AMOUNT).toLocaleString()}{" "}
+              deposit and completing your designated tasks, you can claim your
+              own land Channels Villa.
             </p>
           </div>
           <a class="btn btn-primary btn-transition px-6" href="/">

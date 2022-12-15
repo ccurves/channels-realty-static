@@ -101,7 +101,11 @@ const About = () => {
                     <h4>Subscribition</h4>
                     <p>
                       You also have the option of subscribing to own a land on
-                      Channels Villa just with ₦20,000.
+                      Channels Villa just with ₦
+                      {parseInt(
+                        process.env.REACT_APP_REG_AMOUNT
+                      ).toLocaleString()}
+                      .
                       {/* With Channels Villa you
                     can claim a 150 sqm of land by referring 15 people, 300 sqm
                     of land by referring 30 people, and 600 sqm of land by

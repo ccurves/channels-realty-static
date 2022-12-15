@@ -26,7 +26,7 @@ const FAQs = () => {
                       aria-expanded="true"
                       aria-controls="collapseBasicsOne"
                     >
-                      Lorem ipsum dolor amet consectetur
+                      What is Channels Realty about?
                     </a>
                   </div>
                   <div
@@ -36,9 +36,12 @@ const FAQs = () => {
                     data-bs-parent="#accordionFAQBasics"
                   >
                     <div class="accordion-body">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Mollitia distinctio qui corporis repellendus explicabo, at
-                      odio perspiciatis recusandae excepturi minima.
+                      Channels Realty Innovations Limited is a Property
+                      Technological Real Estate firm, that helps solves the
+                      property and land deficit in a nation through tech and
+                      digital structures thereby simplifying the technicalities
+                      and difficulties in the real estate world! This means with
+                      Channels Realty: Everyone can own a property!
                     </div>
                   </div>
                 </div>
@@ -53,7 +56,7 @@ const FAQs = () => {
                       aria-expanded="false"
                       aria-controls="collapseBasicsTwo"
                     >
-                      Can I cancel at anytime?
+                      Who is a 'Chanerator'?
                     </a>
                   </div>
                   <div
@@ -63,9 +66,12 @@ const FAQs = () => {
                     data-bs-parent="#accordionFAQBasics"
                   >
                     <div class="accordion-body">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Mollitia distinctio qui corporis repellendus explicabo, at
-                      odio perspiciatis recusandae excepturi minima.
+                      'Chanerator' simply means CHANNELS REALTOR. With the
+                      combination of the words; 'Channels' and 'Realtor', we
+                      were able to come up with the title; Chanerator. Everyone
+                      that participates in this project is referred to as a
+                      Chanerator. This term also serves as our trend term across
+                      available social media platforms.
                     </div>
                   </div>
                 </div>
@@ -80,7 +86,7 @@ const FAQs = () => {
                       aria-expanded="false"
                       aria-controls="collapseBasicsThree"
                     >
-                      How do I get a receipt for my purchase?
+                      How can I buy a property with ₦30,000?
                     </a>
                   </div>
                   <div
@@ -90,9 +96,12 @@ const FAQs = () => {
                     data-bs-parent="#accordionFAQBasics"
                   >
                     <div class="accordion-body">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Mollitia distinctio qui corporis repellendus explicabo, at
-                      odio perspiciatis recusandae excepturi minima.
+                      Channels Realty has been able to devise a structure and a
+                      strategy that allows everyone that is interested in
+                      obtaining a property to do so with a minimum of ₦30,000.
+                      With ₦30,000, you can buy a property, all you need to do
+                      is follow the due registration process and complete the
+                      task on your dashboard.
                     </div>
                   </div>
                 </div>
@@ -107,7 +116,7 @@ const FAQs = () => {
                       aria-expanded="false"
                       aria-controls="collapseBasicsFour"
                     >
-                      Which license do I need?
+                      What is the task to complete?
                     </a>
                   </div>
                   <div
@@ -117,9 +126,13 @@ const FAQs = () => {
                     data-bs-parent="#accordionFAQBasics"
                   >
                     <div class="accordion-body">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Mollitia distinctio qui corporis repellendus explicabo, at
-                      odio perspiciatis recusandae excepturi minima.
+                      One of the best things about our innovation is bringing
+                      the scope of digitalization and marketing into real
+                      estate. With our structure, tasks available to be
+                      completed are made very easy, all you have to do as a
+                      partaker is to share referral links to more people, which
+                      we see as a form of marketing and we reward you for your
+                      input.
                     </div>
                   </div>
                 </div>
@@ -134,7 +147,7 @@ const FAQs = () => {
                       aria-expanded="false"
                       aria-controls="collapseBasicsFive"
                     >
-                      How do I get access to a land I purchased?
+                      Is Channels Realty Innovations Registered?
                     </a>
                   </div>
                   <div
@@ -144,9 +157,8 @@ const FAQs = () => {
                     data-bs-parent="#accordionFAQBasics"
                   >
                     <div class="accordion-body">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Mollitia distinctio qui corporis repellendus explicabo, at
-                      odio perspiciatis recusandae excepturi minima.
+                      Channels Realty Innovations Limited is a registered
+                      company with CAC: Rc No: 1981339 and EFCC SC:
                     </div>
                   </div>
                 </div>
@@ -161,7 +173,7 @@ const FAQs = () => {
                       aria-expanded="false"
                       aria-controls="collapseBasicsSix"
                     >
-                      Upgrade License Type
+                      What is the documentation on the properties bought?
                     </a>
                   </div>
                   <div
@@ -171,9 +183,93 @@ const FAQs = () => {
                     data-bs-parent="#accordionFAQBasics"
                   >
                     <div class="accordion-body">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                      Mollitia distinctio qui corporis repellendus explicabo, at
-                      odio perspiciatis recusandae excepturi minima.
+                      Here at Channels, we give the best value for properties
+                      bought and legitimate documentation. Our property
+                      documentation includes; Registered Survey, Deed of
+                      Assignment, C of O, and every other legal document
+                      required.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <div class="accordion-header" id="headingBasicsSix">
+                    <a
+                      class="accordion-button collapsed"
+                      role="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseBasicsSeven"
+                      aria-expanded="false"
+                      aria-controls="collapseBasicsSeven"
+                    >
+                      Will I be given my landed properties after paying ₦30,000?
+                    </a>
+                  </div>
+                  <div
+                    id="collapseBasicsSeven"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingBasicsSeven"
+                    data-bs-parent="#accordionFAQBasics"
+                  >
+                    <div class="accordion-body">
+                      Yes! You get your landed property and proper documentation
+                      when you finish and pass the task given!
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <div class="accordion-header" id="headingBasicsSix">
+                    <a
+                      class="accordion-button collapsed"
+                      role="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseBasicsEight"
+                      aria-expanded="false"
+                      aria-controls="collapseBasicsEight"
+                    >
+                      When will my property be allocated to me?
+                    </a>
+                  </div>
+                  <div
+                    id="collapseBasicsEight"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingBasicsEight"
+                    data-bs-parent="#accordionFAQBasics"
+                  >
+                    <div class="accordion-body">
+                      Property allocations happen every last Saturday of the
+                      month. Everyone who buys a property from Channels Realty
+                      either by Outright payments or with 30k gets their
+                      property allocated to them in weeks!
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <div class="accordion-header" id="headingBasicsSix">
+                    <a
+                      class="accordion-button collapsed"
+                      role="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseBasicsNine"
+                      aria-expanded="false"
+                      aria-controls="collapseBasicsNine"
+                    >
+                      Does Channels Realty have an office location? Yes!
+                    </a>
+                  </div>
+                  <div
+                    id="collapseBasicsNine"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingBasicsNine"
+                    data-bs-parent="#accordionFAQBasics"
+                  >
+                    <div class="accordion-body">
+                      Channels Realty can be located in Epe, Lagos. <br />
+                      <strong>Office Location:</strong>
+                      12, Scholars Road, Imukun Epe, Lagos! <br />
+                      You can visit us from Monday to Friday from 9 am to 3 pm.
                     </div>
                   </div>
                 </div>
