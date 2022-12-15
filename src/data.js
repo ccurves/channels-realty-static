@@ -32,14 +32,14 @@ export const testimonials = [
   {
     id: 1,
     img: "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
-    msg: "Lorem ipsum dolor sit amet consectetur adipisicing elit Consectetur quibusdam repellendus fugit dolores perferendis voluptas",
+    msg: "I've been following up the sessions from the inception and i've learnt alot about Channels Realty. It takes only those with foresight like me to profit from the awesome and life changing offers from @channels_realty . Properties in the most popular places in Lagos were once sold at very very low prices but now even with your millions, you'll struggle to get legitimate property in some developed areas in Lagos. Have foresight and engage with @channels_realty",
     name: "John Sims",
     title: "Farmer",
   },
   {
     id: 2,
     img: "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
-    msg: "Lorem ipsum dolor sit amet consectetur adipisicing elit Consectetur quibusdam repellendus fugit dolores perferendis voluptas",
+    msg: " the session was insightful and super detailed, no rush, taking the process and what it entails one step at a time, it gives the assurance that one is dealing with understanding people that are committed to building a structure that works and committed to the scheme to help the masses and not just for thier own profit gains. The session was really helpful and there is truth in the process that has been highlighted. Taking the process step by step to know the packages is actually a great direction 👏. Thanks @channels_realty and thanks @themosesoveh for the insightful session. 👏",
     name: "Dorcas Jacob",
     title: "Nurse",
   },
