@@ -61,7 +61,7 @@ const Navbar = () => {
               <li class="nav-item">
                 <a
                   class="btn btn-primary btn-transition"
-                  href="https://app.channels.realty/login"
+                  href={`${process.env.REACT_APP_WEBAPP_URL}`}
                 >
                   Sign in <i class="bi-person-circle ms-2"></i>
                 </a>

@@ -59,7 +59,7 @@ const PacakagesGrid = () => {
                       />
                     </div>
 
-                    <h3 class="card-title">{plan.name}</h3>
+                    <h3 class="card-title">{plan.sqm} sqm</h3>
                     <p class="card-text">
                       Pay the sum of ₦
                       {parseInt(
@@ -70,7 +70,10 @@ const PacakagesGrid = () => {
                     </p>
 
                     <div class="d-grid">
-                      <a class="btn btn-primary btn-transition" href="">
+                      <a
+                        class="btn btn-primary btn-transition"
+                        href={`${process.env.REACT_APP_WEBAPP_URL}`}
+                      >
                         Sign up for this package
                       </a>
                     </div>
