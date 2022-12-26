@@ -20,13 +20,16 @@ const SubHero = () => {
               own land Channels Villa.
             </p>
           </div>
-          <a class="btn btn-primary btn-transition px-6" href="/">
+          <a
+            class="btn btn-primary btn-transition px-6"
+            href={`${process.env.REACT_APP_WEBAPP_URL}`}
+          >
             Join now
           </a>
 
           <a
             class=" btn btn-outline-secondary btn-transition ms-3"
-            href="/"
+            href="/about"
             role="button"
             data-fslightbox="youtube-video"
           >

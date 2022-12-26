@@ -28,7 +28,10 @@ const Hero = () => {
               </p>
             </div>
             <div class="d-grid d-sm-flex gap-3">
-              <a class="btn btn-primary btn-transition px-6" href="/">
+              <a
+                class="btn btn-primary btn-transition px-6"
+                href={`${process.env.REACT_APP_WEBAPP_URL}`}
+              >
                 Get Started
               </a>
 
