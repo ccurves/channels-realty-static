@@ -135,8 +135,8 @@ const About = () => {
               <img class="card-img rounded-2" src={img6} alt="" />
               <div class="card card-sm text-center mt-n7 mx-3">
                 <div class="card-body">
-                  <h4 class="card-title">Christina Kray</h4>
-                  <p class="card-text">Project Manager</p>
+                  <h4 class="card-title">Gaius Kingsley</h4>
+                  <p class="card-text">Co Founder and Team Lead</p>
                 </div>
               </div>
             </div>
@@ -145,8 +145,8 @@ const About = () => {
               <img class="card-img rounded-2" src={img2} alt="" />
               <div class="card card-sm text-center mt-n7 mx-3">
                 <div class="card-body">
-                  <h4 class="card-title">Jeff Fisher</h4>
-                  <p class="card-text">CEO, Director</p>
+                  <h4 class="card-title">Adeleye Mathew</h4>
+                  <p class="card-text">Co founder and Team Strategist</p>
                 </div>
               </div>
             </div>
@@ -155,8 +155,8 @@ const About = () => {
               <img class="card-img rounded-2" src={img7} alt="" />
               <div class="card card-sm text-center mt-n7 mx-3">
                 <div class="card-body">
-                  <h4 class="card-title">Lida Reidy</h4>
-                  <p class="card-text">Marketer</p>
+                  <h4 class="card-title">Oveh Moses</h4>
+                  <p class="card-text">Co Founder and Team Project Manager</p>
                 </div>
               </div>
             </div>
