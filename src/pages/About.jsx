@@ -98,7 +98,7 @@ const About = () => {
                       alt=""
                       className="img-fluid w-25 mb-4"
                     />
-                    <h4>Subscribition</h4>
+                    <h4>Subscription</h4>
                     <p>
                       You also have the option of subscribing to own a land on
                       Channels Villa just with ₦

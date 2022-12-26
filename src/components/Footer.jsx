@@ -135,14 +135,20 @@ const Footer = () => {
           <div class="col-sm-auto">
             <ul class="list-inline mb-0">
               <li class="list-inline-item">
-                <a class="btn btn-soft-light btn-xs btn-icon" href="#">
+                <a
+                  class="btn btn-soft-light btn-xs btn-icon"
+                  href="https://www.facebook.com/profile.php?id=100085844872560 "
+                >
                   <i class="bi-facebook"></i>
                 </a>
               </li>
 
               <li class="list-inline-item">
-                <a class="btn btn-soft-light btn-xs btn-icon" href="#">
-                  <i class="bi-google"></i>
+                <a
+                  class="btn btn-soft-light btn-xs btn-icon"
+                  href="https://t.me/channelsrealty"
+                >
+                  <i class="bi-telegram"></i>
                 </a>
               </li>
 
@@ -153,7 +159,10 @@ const Footer = () => {
               </li>
 
               <li class="list-inline-item">
-                <a class="btn btn-soft-light btn-xs btn-icon" href="#">
+                <a
+                  class="btn btn-soft-light btn-xs btn-icon"
+                  href="https://instagram.com/channels_realty?igshid=N2ZiY2E3YmU= "
+                >
                   <i class="bi-instagram"></i>
                 </a>
               </li>
