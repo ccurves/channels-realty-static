@@ -153,7 +153,10 @@ const Footer = () => {
               </li>
 
               <li class="list-inline-item">
-                <a class="btn btn-soft-light btn-xs btn-icon" href="#">
+                <a
+                  class="btn btn-soft-light btn-xs btn-icon"
+                  href="https://twitter.com/ChannelsRealty?t=hoNFI02_qV_lhrCm1wZJ3A&s=09"
+                >
                   <i class="bi-twitter"></i>
                 </a>
               </li>
